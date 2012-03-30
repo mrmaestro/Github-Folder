@@ -1,0 +1,9 @@
+[GNOME Session]
+Name=Unity
+#RequiredComponents=gnome-settings-daemon;
+RequiredProviders=windowmanager;panel;
+DefaultProvider-windowmanager=compiz
+DefaultProvider-panel=avant-window-navigator
+IsRunnableHelper=/usr/lib/nux/unity_support_test
+FallbackSession=arios-2d
+DesktopName=Unity
